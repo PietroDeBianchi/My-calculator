@@ -14,40 +14,94 @@
 
     <main class="container">
         <div class="calculator">
-            <form action="">
-                <div>
-                    <input type="text" name="display">
+
+            <div class="display">
+                <div class="content">
+                    <div class="input"></div>
+                    <div class="outoput"></div>
                 </div>
-                <div>
-                    <input type="button" value="AC">
-                    <input type="button" value="DE">
-                    <input type="button" value=".">
-                    <input type="button" value="/">
+            </div>
+
+            <div class="keys">
+
+                <div data-key="clear" class="key action">
+                    <span>AC</span>
                 </div>
-                <div>
-                    <input type="button" value="7">
-                    <input type="button" value="8">
-                    <input type="button" value="9">
-                    <input type="button" value="*">
+
+                <div data-key="delete" class="key action">
+                    <span>DEL</span>
                 </div>
-                <div>
-                    <input type="button" value="4">
-                    <input type="button" value="5">
-                    <input type="button" value="6">
-                    <input type="button" value="-">
+
+                <div data-key="%" class="key action">
+                    <span>%</span>
                 </div>
-                <div>
-                    <input type="button" value="1">
-                    <input type="button" value="2">
-                    <input type="button" value="3">
-                    <input type="button" value="+">
+
+                <div data-key="/" class="key operator">
+                    <span>/</span>
                 </div>
-                <div>
-                    <input type="button" value="0">
-                    <input type="button" value="00">
-                    <input type="button" value="=">
+
+                <div data-key="7" class="key">
+                    <span>7</span>
                 </div>
-            </form>
+
+                <div data-key="8" class="key">
+                    <span>8</span>
+                </div>
+
+                <div data-key="9" class="key">
+                    <span>9</span>
+                </div>
+
+                <div data-key="*" class="key operator">
+                    <span>X</span>
+                </div>
+
+                <div data-key="4" class="key">
+                    <span>4</span>
+                </div>
+
+                <div data-key="5" class="key">
+                    <span>5</span>
+                </div>
+
+                <div data-key="6" class="key">
+                    <span>6</span>
+                </div>
+
+                <div data-key="-" class="key operator">
+                    <span>-</span>
+                </div>
+
+                <div data-key="1" class="key">
+                    <span>1</span>
+                </div>
+
+                <div data-key="2" class="key">
+                    <span>2</span>
+                </div>
+
+                <div data-key="3" class="key">
+                    <span>3</span>
+                </div>
+
+                <div data-key="+" class="key operator">
+                    <span>+</span>
+                </div>
+
+                <div data-key="0" class="key">
+                    <span>0</span>
+                </div>
+
+                <div data-key="." class="key">
+                    <span>.</span>
+                </div>
+
+                <div data-key="=" class="key operator" id="equal-btn">
+                    <span>=</span>
+                </div>
+
+            </div>
+
         </div>
 
     </main>
