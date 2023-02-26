@@ -10,37 +10,46 @@
     <link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <title>Calculator</title>
 </head>
-<body class="debug">
+<body>
 
-    <main class="flexer">
-        <div id="my-calculator" class="flexer">
-            <div id="calculator-container">
-                <div class="output column-1" id="output-container">
-                    <div class="previous-operand" data-previous-operand>190</div>
-                    <div class="current-operand" data-current-operand>1234567890987654321</div>
+    <main class="container">
+        <div class="calculator">
+            <form action="">
+                <div>
+                    <input type="text" name="display">
                 </div>
-                <div id="button-container" class="flexer">
-                    <button class="column-2 row" data-all-clear>AC</button>
-                    <button class="column-4 row" data-delete>DEL</button>
-                    <button class="column-4 row" data-operation>%</button>
-                    <button class="column-4 row" data-number>1</button>
-                    <button class="column-4 row" data-number>2</button>
-                    <button class="column-4 row" data-number>3</button>
-                    <button class="column-4 row" data-operation>*</button>
-                    <button class="column-4 row" data-number>4</button>
-                    <button class="column-4 row" data-number>5</button>
-                    <button class="column-4 row" data-number>6</button>
-                    <button class="column-4 row"data-operation>+</button>
-                    <button class="column-4 row" data-number>7</button>
-                    <button class="column-4 row" data-number>8</button>
-                    <button class="column-4 row" data-number>9</button>
-                    <button class="column-4 row"data-operation>-</button>
-                    <button class="column-4 row"data-number>.</button>
-                    <button class="column-4 row" data-number>0</button>
-                    <button class="column-2 row"data-equal>=</button>
+                <div>
+                    <input type="button" value="AC">
+                    <input type="button" value="DE">
+                    <input type="button" value=".">
+                    <input type="button" value="/">
                 </div>
-            </div>
+                <div>
+                    <input type="button" value="7">
+                    <input type="button" value="8">
+                    <input type="button" value="9">
+                    <input type="button" value="*">
+                </div>
+                <div>
+                    <input type="button" value="4">
+                    <input type="button" value="5">
+                    <input type="button" value="6">
+                    <input type="button" value="-">
+                </div>
+                <div>
+                    <input type="button" value="1">
+                    <input type="button" value="2">
+                    <input type="button" value="3">
+                    <input type="button" value="+">
+                </div>
+                <div>
+                    <input type="button" value="0">
+                    <input type="button" value="00">
+                    <input type="button" value="=">
+                </div>
+            </form>
         </div>
+
     </main>
 
     <script type="text/javascript" src="js/myscript.js"></script>
